@@ -86,7 +86,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  msg -bar2 
 
- echo -e " \e[97m\033[1;41m   =====>>►►  SCRIPT  VPS DARK  ◄◄<<=====      \033[1;37m\033[0m" 
+ echo -e " \e[97m\033[1;41m   =====>>►►  SCRIPT  VPS CYBERPERU ◄◄<<=====      \033[1;37m\033[0m" 
 
  msg -bar2 
 
@@ -780,7 +780,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  msg -bar 
 
- msg -ama " Notify-BOT (Notificasion Remota)|@CYBER-PERU_Noty_Bot " 
+ msg -ama " Notify-BOT (Notificasion Remota)|@CYBERPERU_Noty_Bot " 
 
  msg -bar 
 
@@ -1026,7 +1026,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  echo -e "${cor[2]}         DESEAS INSTALAR NOTI-BOT?(Default n)" 
 
- echo -e "\033[1;34m  (Deves tener Telegram y el BOT: @CYBER-PERU_Noty_Bot)" 
+ echo -e "\033[1;34m  (Deves tener Telegram y el BOT: @CYBERPERU_Noty_Bot)" 
 
  msg -bar2 
 
