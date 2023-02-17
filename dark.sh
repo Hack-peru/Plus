@@ -646,7 +646,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  echo 'echo ""' >> .bashrc 
 
- echo 'figlet "VPS-DARK"|lolcat' >> .bashrc 
+ echo 'figlet "CYBER-PERU"|lolcat' >> .bashrc 
 
  echo 'mess1="$(less /etc/VPS-MX/message.txt)" ' >> .bashrc 
 
@@ -664,7 +664,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  echo -e "         COMANDO PRINCIPAL PARA ENTRAR AL PANEL " 
 
- echo -e "  \033[1;41m               sudo vpsdark             \033[0;37m" && msg -bar2 
+ echo -e "  \033[1;41m               sudo cyber-peru             \033[0;37m" && msg -bar2 
 
  rm -rf /usr/bin/pytransform &> /dev/null 
 
@@ -780,7 +780,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  msg -bar 
 
- msg -ama " Notify-BOT (Notificasion Remota)|@VPSDARK_Noty_Bot " 
+ msg -ama " Notify-BOT (Notificasion Remota)|@CYBER-PERU_Noty_Bot " 
 
  msg -bar 
 
@@ -796,7 +796,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  echo -e "\033[1;97m Inicie El BOT de Telegram" 
 
- echo -e "\033[1;92m ¡¡ Para sacar su ID entre al BOT @VPSDARK" 
+ echo -e "\033[1;92m ¡¡ Para sacar su ID entre al BOT @Tupesadilla_bot" 
 
  echo -e "\033[1;92m Aparesera algo parecido � → Tu ID es: 45145564   " 
 
@@ -1016,7 +1016,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  echo "${SCPdir}/menu" > /usr/bin/menu && chmod +x /usr/bin/menu 
 
- echo "${SCPdir}/menu" > /usr/bin/vpsdark && chmod +x /usr/bin/vpsdark 
+ echo "${SCPdir}/menu" > /usr/bin/cyber-peru && chmod +x /usr/bin/cyber-peru 
 
  echo "$Key" > ${SCPdir}/key.txt 
 
@@ -1026,7 +1026,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  echo -e "${cor[2]}         DESEAS INSTALAR NOTI-BOT?(Default n)" 
 
- echo -e "\033[1;34m  (Deves tener Telegram y el BOT: @DARK_MOD_Noty_Bot)" 
+ echo -e "\033[1;34m  (Deves tener Telegram y el BOT: @CYBER-PERU_Noty_Bot)" 
 
  msg -bar2 
 
@@ -1042,9 +1042,9 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  invalid_key 
 
- rm -rf VPSDARK ista-arq 
+ rm -rf CYBER-PERU ista-arq 
 
  fi 
 
- rm -rf VPSDARK lista-arq
+ rm -rf CYBER-PERU lista-arq
 
