@@ -264,7 +264,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  msg -bar2 
 
- msg -ama "     [ SCRIPT \033[1;97m VPS  DARK\033[1;33m ]" 
+ msg -ama "     [ SCRIPT \033[1;97m VPS  CYBER-PERU\033[1;33m ]" 
 
  msg -bar 
 
@@ -574,7 +574,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  msg -bar2 
 
- figlet " VPS-DARK" | lolcat 
+ figlet " VPS CYBER-PERU " | lolcat 
 
  echo -e "     ESTE SCRIPT ESTA OPTIMIZADO A IDIOMA ESPAÑOL" 
 
@@ -1042,9 +1042,9 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  invalid_key 
 
- rm -rf CYBER-PERU ista-arq 
+ rm -rf LACASITA.sh ista-arq 
 
  fi 
 
- rm -rf CYBER-PERU lista-arq
+ rm -rf LACASITA.sh lista-arq
 
