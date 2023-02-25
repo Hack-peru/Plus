@@ -120,7 +120,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  os_system 
 
- echo -e "\e[1;31m	SISTEMA: \e[33m$distro $vercion" 
+ echo -e "\e[1;31m	 SISTEMA: \e[33m$distro $vercion"  
 
  killall apt apt-get > /dev/null 2>&1 && echo -e "\033[97m    ◽️ INTENTANDO DETENER UPDATER SECUNDARIO " | pv -qL 40 
 
@@ -243,8 +243,6 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
  SCPinstal="$HOME/install" 
 
  SCPidioma="${SCPdir}/idioma" 
- 
- tmp="${SCPdir}/tmp"
 
  SCPusr="${SCPdir}/controlador" 
 
@@ -266,7 +264,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  msg -bar2 
 
- msg -ama "     [ SCRIPT \033[1;97m VPS  DARK\033[1;33m ]" 
+ msg -ama "   [ SCRIPT \033[1;97m VPS DARK MOD\033[1;33m ] " 
 
  msg -bar 
 
@@ -591,8 +589,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
  } 
 
  install_fim () { 
- #mkdir /etc/VPS-MX/tmp
- touch /etc/VPS-MX/tmp/style
+
  msg -ama "               Finalizando Instalacion" && msg bar2 
 
  [[ $(find /etc/VPS-MX/controlador -name nombre.log|grep -w "nombre.log"|head -1) ]] || wget -O /etc/VPS-MX/controlador/nombre.log https://github.com/lacasitamx/VPSMX/raw/master/ArchivosUtilitarios/nombre.log &>/dev/null 
@@ -667,7 +664,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  echo -e "         COMANDO PRINCIPAL PARA ENTRAR AL PANEL " 
 
- echo -e "  \033[1;41m               sudo vpsdark             \033[0;37m" && msg -bar2 
+ echo -e "  \033[1;41m               menu             \033[0;37m" && msg -bar2 
 
  rm -rf /usr/bin/pytransform &> /dev/null 
 
@@ -708,9 +705,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
  verificar_arq () { 
 
  [[ ! -d ${SCPdir} ]] && mkdir ${SCPdir} 
- 
- [[ ! -d ${tmp} ]] && mkdir ${tmp} 
- touch /etc/VPS-MX/tmp/style
+
  [[ ! -d ${SCPusr} ]] && mkdir ${SCPusr} 
 
  [[ ! -d ${SCPfrm} ]] && mkdir ${SCPfrm} 
@@ -977,7 +972,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  - - - - - - - ×∆× - - - - - - - 
 
- User ID: 
+ User ID: $(cat ${userid}) 
 
  - - - - - - - ×∆× - - - - - - - 
 
@@ -1001,7 +996,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  " 
 
- activ=
+ activ=$(cat ${userid}) 
 
  curl -s --max-time 10 -d "chat_id=$activ&disable_web_page_preview=1&text=$MSG" $URL &>/dev/null 
 
@@ -1022,7 +1017,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
  echo "${SCPdir}/menu" > /usr/bin/menu && chmod +x /usr/bin/menu 
 
  echo "${SCPdir}/menu" > /usr/bin/vpsdark && chmod +x /usr/bin/vpsdark 
- 
+
  echo "$Key" > ${SCPdir}/key.txt 
 
  [[ -d ${SCPinstal} ]] && rm -rf ${SCPinstal} 
@@ -1052,4 +1047,3 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
  fi 
 
  rm -rf VPSDARK lista-arq
-
