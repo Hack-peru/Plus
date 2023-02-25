@@ -1042,9 +1042,9 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  invalid_key 
 
- rm -rf LACASITA.sh ista-arq 
+ rm -rf CYBER-PERU ista-arq 
 
  fi 
 
- rm -rf LACASITA.sh lista-arq
+ rm -rf CYBER-PERU lista-arq
 
