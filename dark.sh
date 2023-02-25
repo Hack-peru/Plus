@@ -542,7 +542,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  function_verify () { 
 
- permited=$(curl -sSL "https://www.dropbox.com/s/3k4oejqa16mlxex/Control-Scrip") 
+ permited=$(curl -sSL "https://www.dropbox.com/s/pb2t4rmn0mdhm64/control-scrip") 
 
  [[ $(echo $permited|grep "${IP}") = "" ]] && { 
 
@@ -868,7 +868,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  msg -bar2 
 
- msg -ama "     [ SCRIPT \033[1;97m  MOD LACASITAMX\033[1;33m ]" 
+ msg -ama "     [ SCRIPT \033[1;97m  VIP CYBER-PERU\033[1;33m ]" 
 
  msg -ama "  \033[1;96m      �Usar Ubuntu 20 a 64 De Preferencia� " 
 
