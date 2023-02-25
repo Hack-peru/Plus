@@ -86,7 +86,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  msg -bar2 
 
- echo -e " \e[97m\033[1;41m   =====>>►►  SCRIPT  VPS DARK  ◄◄<<=====      \033[1;37m\033[0m" 
+ echo -e " \e[97m\033[1;41m   =====>>►►  SCRIPT  CYBER-PERU ◄◄<<=====      \033[1;37m\033[0m" 
 
  msg -bar2 
 
@@ -264,7 +264,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  msg -bar2 
 
- msg -ama "   [ SCRIPT \033[1;97m VPS DARK MOD\033[1;33m ] " 
+ msg -ama "   [ SCRIPT \033[1;97m VPS CYBER-PERU\033[1;33m ] " 
 
  msg -bar 
 
@@ -574,7 +574,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  msg -bar2 
 
- figlet " VPS-DARK" | lolcat 
+ figlet " CYBER-PERU " | lolcat 
 
  echo -e "     ESTE SCRIPT ESTA OPTIMIZADO A IDIOMA ESPAÑOL" 
 
@@ -646,7 +646,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  echo 'echo ""' >> .bashrc 
 
- echo 'figlet "VPS-DARK"|lolcat' >> .bashrc 
+ echo 'figlet "CYBER-PERU"|lolcat' >> .bashrc 
 
  echo 'mess1="$(less /etc/VPS-MX/message.txt)" ' >> .bashrc 
 
@@ -658,7 +658,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  echo 'echo "" '>> .bashrc 
 
- echo 'echo -e "\t\033[97mPARA MOSTAR PANEL BASH ESCRIBA: sudo menu "'>> .bashrc 
+ echo 'echo -e "\t\033[97mPARA MOSTAR PANEL BASH ESCRIBA: CYBER-PERU"'>> .bashrc 
 
  echo 'echo ""'>> .bashrc 
 
@@ -780,7 +780,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  msg -bar 
 
- msg -ama " Notify-BOT (Notificasion Remota)|@VPSDARK_Noty_Bot " 
+ msg -ama " Notify-BOT (Notificasion Remota)|@CYBER_PERU_Noty_Bot " 
 
  msg -bar 
 
@@ -796,7 +796,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  echo -e "\033[1;97m Inicie El BOT de Telegram" 
 
- echo -e "\033[1;92m ¡¡ Para sacar su ID entre al BOT @VPSDARK" 
+ echo -e "\033[1;92m ¡¡ Para sacar su ID entre al BOT @Tupesadilla_bot" 
 
  echo -e "\033[1;92m Aparesera algo parecido � → Tu ID es: 45145564   " 
 
@@ -1026,7 +1026,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  echo -e "${cor[2]}         DESEAS INSTALAR NOTI-BOT?(Default n)" 
 
- echo -e "\033[1;34m  (Deves tener Telegram y el BOT: @DARK_MOD_Noty_Bot)" 
+ echo -e "\033[1;34m  (Deves tener Telegram y el BOT: @cyber_peru_MOD_Noty_Bot)" 
 
  msg -bar2 
 
@@ -1042,8 +1042,8 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  invalid_key 
 
- rm -rf VPSDARK ista-arq 
+ rm -rf CYBER-PERU ista-arq 
 
  fi 
 
- rm -rf VPSDARK lista-arq
+ rm -rf CYBER-PERU lista-arq
