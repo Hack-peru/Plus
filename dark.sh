@@ -542,7 +542,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 
  function_verify () { 
 
- permited=$(curl -sSL "https://www.dropbox.com/s/pb2t4rmn0mdhm64/control-scrip") 
+ permitido = $(curl -sSL https://raw.githubusercontent.com/Hack-peru/Script-mx/main/controlp")
 
  [[ $(echo $permited|grep "${IP}") = "" ]] && { 
 
